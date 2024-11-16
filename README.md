@@ -16,7 +16,7 @@ This Demand Estimation Project encompasses two specialized subprojects, `ml_esti
 
 ### berry_demand
 **Product Demand Estimation using IV and OLS Regression**
-**Implements the BLP model** as described in [Berry, Levinsohn, and Pakes (1995)].
+Implements the BLP model as described in [Berry, Levinsohn, and Pakes (1995)].
 - **Purpose**: Simulates product demand and prices, estimates market shares, and calculates demand parameters.
 - **Key Features**:
   - Generates synthetic data for demand estimation, including product characteristics and prices.
