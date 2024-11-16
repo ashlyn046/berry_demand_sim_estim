@@ -16,7 +16,7 @@ Implements the BLP model as described in [Berry, Levinsohn, and Pakes (1995)].
   - Estimates price sensitivity and product characteristic effects using IV and OLS regression.
   - Utilizes multiprocessing for efficient parallel computations.
 
-### ml_estim
+### ml_estimation
 **Estimates Demand Parameters using Maximum Likelihood Estimation (MLE)**
 - **Purpose**: Simulates flight demand and estimates parameters for a logistic demand model.
 - **Key Features**:
