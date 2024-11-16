@@ -22,9 +22,6 @@ This project simulates flight demand and estimates parameters for a logistic dem
 - **Objective Function Surface**: 3D plot showing the landscape of the objective function over a range of `alpha` and `delta` values.
 - **Log-Likelihood Surface**: 3D plot illustrating the log-likelihood values across different parameter combinations.
 
-Example Visualization:
-![Log-Likelihood Surface](path_to_your_image.png)
-
 ## File Descriptions
 
 ### `main.py`
@@ -69,9 +66,7 @@ Example Visualization:
 - Run the script to generate and display the plots, which help in analyzing the behavior of the estimation process.
 
 ## Notes
-- **Extensibility**: The modular structure allows for easy addition of new simulation or estimation methods.
 - **Optimization Robustness**: Running multiple initial guesses in the optimization process helps avoid convergence to local minima, enhancing the reliability of parameter estimates.
 - **Visualization**: 3D plots assist in understanding the optimization landscape and diagnosing potential issues with the estimation process.
-- **Performance**: For large-scale simulations, consider optimizing the code further or utilizing parallel processing techniques.
 
 For further details and customization, refer to the inline comments within each script.
