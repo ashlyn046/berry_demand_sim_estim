@@ -12,43 +12,6 @@ This project simulates product demand and prices over several time periods, esti
 - **Demand Estimation**: Estimates price sensitivity and product characteristic effects using IV regression.
 - **Efficiency**: Utilizes Python's multiprocessing library to parallelize computations across demand sampling methods.
 
-## Installation
-1. Clone this repository.
-2. Install the required Python libraries:
-    ```bash
-    pip install numpy pandas scipy linearmodels
-    ```
-
-## Usage
-To run the project:
-
-1. **Configure Parameters**: Open the `main.py` script and adjust the parameters as needed:
-    - `N`: Number of consumers (default: 10,000)
-    - `J`: Number of products, including the outside good (default: 3)
-    - `T`: Number of time periods (default: 365)
-    - Simulation parameters such as `beta0`, `beta1`, `alpha`, `omega0`, `omega1`, and `rho`.
-
-2. **Execute the Script**:
-    ```bash
-    python main.py
-    ```
-
-3. **Process Overview**:
-    - **Data Simulation**: Generates synthetic data based on specified parameters.
-    - **Demand Drawing**: Samples demand using three different methods.
-    - **Demand Estimation**: Estimates demand parameters (`beta1` and `alpha`) for each sampling method using IV regression in parallel.
-    - **Output Results**: Displays the estimated parameters and total execution time.
-
-## Outputs
-The script produces:
-
-- **Estimated Parameters**:
-    - `beta1_hat`: Sensitivity to product characteristics.
-    - `alpha_hat`: Price sensitivity.
-- **Execution Time**: Total runtime for simulation, demand draws, and estimation.
-
-
-
 ## File Descriptions
 
 ### `data_simulation.py`
