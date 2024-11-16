@@ -6,7 +6,7 @@ This Demand Estimation Project encompasses two specialized subprojects, `ml_esti
 ## Subprojects
 
 ### ml_estim
-**Flight Demand Estimation using Maximum Likelihood Estimation (MLE)**
+**Estimates Demand Parameters using Maximum Likelihood Estimation (MLE)**
 - **Purpose**: Simulates flight demand and estimates parameters for a logistic demand model.
 - **Key Features**:
   - Generates synthetic data using Poisson distributions.
@@ -15,7 +15,7 @@ This Demand Estimation Project encompasses two specialized subprojects, `ml_esti
   - Visualizes objective and log-likelihood surfaces through 3D plots.
 
 ### berry_demand
-**Product Demand Estimation using IV and OLS Regression**
+**Estimates Demand Parameters using IV and OLS Regression**
 
 Implements the BLP model as described in [Berry, Levinsohn, and Pakes (1995)].
 - **Purpose**: Simulates product demand and prices, estimates market shares, and calculates demand parameters.
