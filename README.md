@@ -27,4 +27,4 @@ Implements the BLP model as described in [Berry, Levinsohn, and Pakes (1995)].
 
 ## References
 
-Berry, S., Levinsohn, J., & Pakes, A. (1995). *Automobile Prices in Market Equilibrium*. *Econometrica*, 63(4), 841–890. [https://doi.org/10.2307/2951707](https://doi.org/10.2307/2951707)
+Berry, S., Levinsohn, J., & Pakes, A. (1995). *Automobile Prices in Market Equilibrium*. *Econometrica*, 63(4), 841–890. [https://www.econometricsociety.org/publications/econometrica/1995/07/01/automobile-prices-market-equilibrium](https://www.econometricsociety.org/publications/econometrica/1995/07/01/automobile-prices-market-equilibrium)
