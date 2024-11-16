@@ -51,7 +51,6 @@ Main script that orchestrates the entire process:
     - Prints estimation results for each demand drawing method.
 
 ## Notes
-- **Extensibility**: The scripts are modular and can be adapted for additional demand estimation methods or simulation adjustments.
 - **Parallel Processing**: Three parallel processes handle demand estimation for the three sampling methods, significantly reducing runtime.
 - **Robustness Testing**: Compare results across sampling methods to evaluate the robustness of demand estimation.
 
