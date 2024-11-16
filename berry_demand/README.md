@@ -55,3 +55,7 @@ Main script that orchestrates the entire process:
 - **Robustness Testing**: Compare results across sampling methods to evaluate the robustness of demand estimation.
 
 For more details, refer to the inline comments in each script.
+
+## References
+
+Berry, S., Levinsohn, J., & Pakes, A. (1995). *Automobile Prices in Market Equilibrium*. *Econometrica*, 63(4), 841–890. [https://www.econometricsociety.org/publications/econometrica/1995/07/01/automobile-prices-market-equilibrium](https://www.econometricsociety.org/publications/econometrica/1995/07/01/automobile-prices-market-equilibrium)
