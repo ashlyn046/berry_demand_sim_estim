@@ -8,12 +8,8 @@
 # The results are printed along with the total execution time for performance tracking.
 # -----------------------------------------------------------------------------------------------------------------
 
-# main.py
-
 import time
 from multiprocessing import Pool
-import numpy as np
-import pandas as pd
 from berry_demand.data_simulation import simulate_data
 from berry_demand.demand_draws import draw_demand_custom, draw_demand_cumsum, draw_demand_uniform
 from berry_demand.estimation import estimModel

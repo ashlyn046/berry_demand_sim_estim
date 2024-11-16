@@ -1,4 +1,3 @@
-# data_simulation.py
 
 import numpy as np
 import pandas as pd

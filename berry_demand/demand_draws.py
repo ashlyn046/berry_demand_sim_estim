@@ -1,7 +1,5 @@
-# demand_draws.py
 
 import numpy as np
-import pandas as pd
 from scipy import stats
 
 def draw_demand_custom(df, N, J, T):

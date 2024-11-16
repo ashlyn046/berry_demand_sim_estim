@@ -1,7 +1,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from likelihood_functions import objective, loglikelihood
+from calc_likelihood import objective, loglikelihood
 
 def graph_objective(df):
     """

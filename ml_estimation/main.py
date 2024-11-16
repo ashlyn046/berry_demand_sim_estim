@@ -11,9 +11,9 @@
 
 import numpy as np
 import pandas as pd
-from MLE_demand.simulate_data import simFlightDemand
-from MLE_demand.calc_likelihood import maxLike
-from MLE_demand.calc_likelihood import objective
+from ml_estimation.simulate_data import simFlightDemand
+from ml_estimation.calc_likelihood import maxLike
+from ml_estimation.calc_likelihood import objective
 
 def main():
     """
