@@ -1,4 +1,4 @@
-# Demand Estimation Project
+# Demand Estimation
 
 ## Overview
 This Demand Estimation Project encompasses two subprojects, `ml_estim` and `berry_demand`. Each of these projects simulates demand and estimates parameters using different methods. 
